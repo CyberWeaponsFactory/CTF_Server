@@ -1,7 +1,7 @@
 # CTF_Server
 
 ### AWS Lightsail Ubuntu 18.04 ###
-# Spin up a new Ubuntu machine using AWS Lightsail or any other Cloud Vender #
+# Spin up a new Ubuntu machine (on-premise OR cloud) #
 
 # Ubuntu Host #
 sudo apt update
@@ -39,8 +39,9 @@ docker run -d -p 9000:9000 --restart always -v /var/run/docker.sock:/var/run/doc
 
 
 # Download/Setup CTFd Server for Docker #
-#(source: https://github.com/CTFd/CTFd )
-#(CTF Deployment: https://docs.ctfd.io/docs/deployment/ )
+#(source: https://github.com/CTFd/CTFd ) #
+
+#(CTF Deployment: https://docs.ctfd.io/docs/deployment/ ) #
 
 cd /opt
 
@@ -60,6 +61,7 @@ docker-compose up
 
 # Adding CTFd Themes and/or Plugins #
 #Unzip Themes to: /opt/CTFd/CTFd/themes/ #
+
 #Unzip Plugins to: /opt/CTFd/CTFd/plugins/ #
 
 cd /opt/CTFd
@@ -82,6 +84,7 @@ sudo unzip /opt/CTFd/CTFd/plugins/multiple_choice.zip /opt/CTFd/CTFd/plugins/
 ENJOY!!!
 
 # NEXT STEPS #
-#Install and Configure SSL using LetsEncrypt ##
+#Install and Configure SSL using LetsEncrypt #
+
 #See nginx/letsencrypt solutions #
 
