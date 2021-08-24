@@ -43,13 +43,13 @@ docker run -d -p 9000:9000 --restart always --name docker-manager -v /var/run/do
 
 
 # Download/Setup CTFd Server for Docker #
-#(source: https://github.com/CTFd/CTFd ) #
+#(source: https://github.com/CyberWeaponsFactory/CTFd ) #
 
 #(CTF Deployment: https://docs.ctfd.io/docs/deployment/ ) #
 
 cd /opt
 
-sudo git clone https://github.com/CTFd/CTFd.git
+sudo git clone https://github.com/CyberWeaponsFactory/CTFd.git
 
 cd /opt/CTFd
 
