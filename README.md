@@ -43,21 +43,21 @@ docker run -d -p 9000:9000 --restart always --name docker-manager -v /var/run/do
 
 
 # Download/Setup CTFd Server for Docker #
-#(source: https://github.com/CyberWeaponsFactory/CTF ) #
+#(source: https://github.com/CyberWeaponsFactory/CTFd ) #
 
 #(CTF Deployment: https://docs.ctfd.io/docs/deployment/ ) #
 
 cd /opt
 
-sudo git clone https://github.com/CyberWeaponsFactory/CTF.git
+sudo git clone https://github.com/CyberWeaponsFactory/CTFd.git
 
-cd /opt/CTF
+cd /opt/CTFd
 
 #Modify the docker-compose.yml files, as needed (add - SECRET_KEY= stupidkey123)
 
 sudo nano docker-compose.yml
 
-cd /opt/CTF
+cd /opt/CTFd
 
 docker-compose up
 
