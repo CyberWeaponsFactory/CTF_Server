@@ -1,14 +1,13 @@
 # CTF_Server
 
-### AWS Lightsail Ubuntu 18.04 ###
-# Spin up a new Ubuntu machine (on-premise OR cloud) #
+### Install and Configure CTFd Server on Docker (Ubuntu Host) ###
 
 # Ubuntu Host #
 sudo apt update
 
 sudo apt dist-upgrade
 
-# Install Docker and Docker-Compose #
+# Install Docker and Docker-Compose on Ubuntu HOST#
 (source: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04 )
 
 sudo apt update
@@ -21,7 +20,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 
 sudo apt update
 
-sudo apt install docker-ce
+sudo apt install docker-ce -y
 
 sudo apt install docker-compose
 
