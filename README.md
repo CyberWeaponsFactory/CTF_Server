@@ -2,7 +2,7 @@
 
 ### Install and Configure CTFd Server on Docker (Ubuntu Host) ###
 
-# Ubuntu Host #
+# Ubuntu Host (AWS Lightsail Ubuntu 18.04)#
 sudo apt update
 
 sudo apt dist-upgrade
