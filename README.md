@@ -34,7 +34,12 @@ sudo mkdir /opt/portainer /data
 docker run -d -p 9000:9000 --restart always --name docker-manager -v /var/run/docker.sock:/var/run/docker.sock -v /opt/portainer:/data portainer/portainer
 
 #Be sure to allow port 9000 on any Firewall or Networking from Cloud Provider
-#Access at: http://<ip_address_vpc:9000
+#Access at: http://<ip_address_vpc>:9000
+
+1. Create New Password on initial login.
+2. Connect Portainer: Select Local (Manage Local docker environment)
+3. "Connect"
+4. Select your Local Endpoint - Dashboard Ready!
 
 
 # Download/Setup CTFd Server for Docker #
