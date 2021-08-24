@@ -64,6 +64,14 @@ docker-compose up
 #Be sure to allow port 8000 on any Firewall or Networking from Cloud Provider
 #Access at: http://<ip_address_vpn:8000
 
+1. Create initial Event Name and Description (CyberWeaponsFactory) --> NEXT
+2. Select TEAM Mode or USER Mode --> NEXT
+3. Create ADMIN User/Email/Password --> NEXT
+4. Upload images under STYLE (optional) --> NEXT
+5. Start/End Time (optional) --> NEXT
+6. Major League Cyber (optional) --> NEXT
+7. Initial Setup Complete - Go to Admin Panel / Config to customize
+
 
 # Adding CTFd Themes and/or Plugins #
 #Unzip Themes to: /opt/CTFd/CTFd/themes/ #
