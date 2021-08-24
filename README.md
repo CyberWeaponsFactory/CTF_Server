@@ -49,11 +49,13 @@ docker run -d -p 9000:9000 --restart always --name docker-manager -v /var/run/do
 
 cd /opt
 
-git clone https://github.com/CTFd/CTFd.git
+sudo git clone https://github.com/CTFd/CTFd.git
+
+cd /opt/CTFd
 
 #Modify the docker-compose.yml files, as needed (add - SECRET_KEY= stupidkey123)
-#cd /opt/CTFd
-#sudo nano docker-compose.yml
+
+sudo nano docker-compose.yml
 
 cd /opt/CTFd
 
