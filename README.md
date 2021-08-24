@@ -31,7 +31,7 @@ docker pull portainer/portainer
 
 sudo mkdir /opt/portainer /data
 
-docker run -d -p 9000:9000 --restart always -v /var/run/docker.sock:/var/run/docker.sock -v /opt/portainer:/data portainer/portainer
+docker run -d -p 9000:9000 --restart always --name docker-manager -v /var/run/docker.sock:/var/run/docker.sock -v /opt/portainer:/data portainer/portainer
 
 #Be sure to allow port 9000 on any Firewall or Networking from Cloud Provider
 #Access at: http://<ip_address_vpc:9000
