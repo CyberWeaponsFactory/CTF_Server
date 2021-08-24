@@ -22,7 +22,7 @@ sudo apt update
 
 sudo apt install docker-ce -y
 
-sudo apt install docker-compose
+sudo apt install docker-compose -y
 
 sudo usermod -aG docker ${USER}
 
