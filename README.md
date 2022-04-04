@@ -2,7 +2,7 @@
 
 ### Install and Configure CTFd Server on Docker (Ubuntu Host) ###
 
-# Ubuntu Host (AWS Lightsail Ubuntu 18.04)#
+# Ubuntu Host (AWS Lightsail Ubuntu 18.04/20.04)#
 sudo apt update
 
 sudo apt dist-upgrade
@@ -16,7 +16,11 @@ sudo apt install apt-transport-https ca-certificates curl software-properties-co
 
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
+### UBUNTU 18.04
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+
+### UBUNTU 20.04
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
 
 sudo apt update
 
