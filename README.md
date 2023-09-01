@@ -109,4 +109,12 @@ ENJOY!!!
 #Install and Configure SSL using LetsEncrypt #
 
 #See nginx/letsencrypt solutions #
+#update
+sudo apt update
+sudo apt install certbot -y
+sudo certbot --manual --perferred-challenges dns certonly -d "domain.com"
+* email address: "email address for cert"
+* Agree // No // Yes // <2 dns text string: add to DNS>
+*   TXT: Name_string and Content_string
+
 
