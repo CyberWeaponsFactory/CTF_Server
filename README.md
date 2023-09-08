@@ -117,4 +117,15 @@ sudo certbot --manual --perferred-challenges dns certonly -p 80:80 -d "domain.co
 * Agree // No // Yes // <2 dns text string: add to DNS>
 *   TXT: Name_string and Content_string
 
+# EXTRAS #
+
+###Pimp my Terminal###
+sudo apt install zsh
+
+sh -c “$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)” 
+
+###Sexy Terminal###
+https://terminal.sexy/#HR8hxcjGKCoupUJCjJRA3pNfX4GdhWePXo2HcHiANztBu7u7tb1o8MZ0gaK-spS7ir63xcjG
+
+
 
